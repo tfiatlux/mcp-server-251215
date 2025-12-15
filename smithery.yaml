@@ -1,0 +1,10 @@
+# Smithery 배포 설정 파일
+# 문서: https://smithery.ai/docs/deploy/typescript
+
+# 런타임 설정
+runtime: "typescript"
+
+# 배포 타겟 설정
+# - 기본값(없음): Remote deployment - Smithery가 자동으로 컨테이너화 및 인프라 관리
+# - "local": Local server (Beta) - 사용자 로컬에서 실행되며 Smithery 레지스트리에서 검색 가능
+# target: "local"
